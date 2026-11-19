@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GiroCerto</string>
+
+    <!-- Navegação Principal (4 abas) -->
+    <string name="nav_overview">Visão Geral</string>
+    <string name="nav_forum">Fórum</string>
+    <string name="nav_earnings">Ganhos</string>
+    <string name="nav_profile">Perfil</string>
+    <string name="nav_cd_overview">Abrir aba Visão Geral</string>
+    <string name="nav_cd_forum">Abrir aba Fórum dos entregadores</string>
+    <string name="nav_cd_earnings">Abrir aba Ganhos</string>
+    <string name="nav_cd_profile">Abrir aba Perfil do motoboy</string>
+
+    <!-- Tema Diurno / Noturno -->
+    <string name="theme_toggle_to_night">Noturno</string>
+    <string name="theme_toggle_to_day">Diurno</string>
+    <string name="theme_mode_day">Modo Diurno (ativo)</string>
+    <string name="theme_mode_night">Modo Noturno (ativo)</string>
+    <string name="theme_cd_toggle">Alternar entre modo diurno e modo noturno</string>
+
+    <!-- Tela Visão Geral -->
+    <string name="home_net_today_title">LUCRO LÍQUIDO HOJE</string>
+    <string name="home_today_breakdown">Ganhos: %1$s · Gastos: %2$s</string>
+    <string name="home_hourly_rate_label">Ganho por hora</string>
+    <string name="home_daily_goal_label">Meta diária</string>
+    <string name="home_goal_progress">%1$d%% da meta atingida</string>
+    <string name="home_btn_add_earning">+ Ganho</string>
+    <string name="home_btn_add_expense">+ Gasto</string>
+    <string name="home_cd_add_earning">Registrar novo ganho</string>
+    <string name="home_cd_add_expense">Registrar novo gasto</string>
+    <string name="home_btn_start_hud">Modo Pilotagem (HUD)</string>
+    <string name="home_cd_start_hud">Ativar tela de pilotagem em alto contraste</string>
+    <string name="home_btn_history">Ver Histórico (Hoje / Semana)</string>
+    <string name="home_btn_calculator">Semáforo Pré-Corrida (R$/km)</string>
+
+    <!-- Permissão GPS (Runtime PT-BR) -->
+    <string name="gps_perm_title">Ativar HUD Automático por GPS?</string>
+    <string name="gps_perm_desc">O GiroCerto lê sua velocidade apenas com o app aberto para ligar o Modo Pilotagem acima de 10 km/h e evitar toques enquanto você pilota. Se preferir não permitir, o HUD funciona no modo manual.</string>
+    <string name="gps_perm_allow">Permitir GPS</string>
+    <string name="gps_perm_later">Usar só manual</string>
+    <string name="gps_status_auto_on">HUD automático por GPS: Ativo</string>
+    <string name="gps_status_manual_only">HUD automático por GPS: Desativado (modo manual)</string>
+    <string name="gps_btn_enable_auto">Ativar HUD Automático (GPS)</string>
+
+    <!-- Semáforo Pré-Corrida (R$/km) -->
+    <string name="calc_title">SEMÁFORO PRÉ-CORRIDA</string>
+    <string name="calc_subtitle">Simule rápido (parado) se a corrida vale a pena descontando o custo da moto.</string>
+    <string name="calc_field_offer">Valor da oferta (R$)</string>
+    <string name="calc_field_distance">Distância total (km)</string>
+    <string name="calc_field_duration">Tempo estimado (min)</string>
+    <string name="calc_field_cost_km">Custo da moto (R$/km)</string>
+    <string name="calc_quick_km">Atalho km</string>
+    <string name="calc_quick_min">Atalho tempo</string>
+    <string name="calc_btn_evaluate">Avaliar Corrida</string>
+    <string name="calc_btn_clear">Limpar</string>
+    <string name="calc_error_invalid">Informe valor, distância maior que 0 e tempo maior que 0.</string>
+    <string name="calc_verdict_green">CORRIDA BOA · VALE A PENA</string>
+    <string name="calc_verdict_yellow">ATENÇÃO · NA MÉDIA</string>
+    <string name="calc_verdict_red">FURADA · ABAIXO DA META</string>
+    <string name="calc_metric_net_profit">Lucro líquido estimado: %1$s</string>
+    <string name="calc_metric_net_km">Lucro por km: %1$s/km (Bruto: %2$s/km)</string>
+    <string name="calc_metric_net_hour">Ritmo líquido: %1$s/h · Custo moto: %2$s</string>
+
+    <!-- Tela Ganhos -->
+    <string name="earnings_search_hint">Buscar corrida ou transação</string>
+    <string name="earnings_today_title">Meus Ganhos de Hoje</string>
+    <string name="earnings_apps_count_zero">Nenhum ganho registrado hoje</string>
+    <string name="earnings_apps_count">Total de %1$d app(s) hoje</string>
+    <string name="earnings_platform_prefix">Ganhos %1$s</string>
+    <string name="earnings_entries_count">%1$d registro(s)</string>
+    <string name="earnings_add_ride">ADICIONAR CORRIDA</string>
+    <string name="earnings_add_expense">+ Registrar Gasto</string>
+    <string name="earnings_open_history">Histórico</string>
+    <string name="earnings_search_empty">Nenhuma plataforma encontrada para essa busca.</string>
+
+    <!-- Plataformas (Ganho) -->
+    <string name="platform_ifood">iFood</string>
+    <string name="platform_uber_eats">Uber</string>
+    <string name="platform_99">99</string>
+    <string name="platform_rappi">Rappi</string>
+    <string name="platform_keeta">Keeta</string>
+    <string name="platform_ze_delivery">Zé Delivery</string>
+    <string name="platform_other">Outro</string>
+
+    <!-- Categorias (Gasto) -->
+    <string name="category_fuel">Combustível</string>
+    <string name="category_maintenance">Manutenção</string>
+    <string name="category_food">Alimentação</string>
+    <string name="category_other">Outros</string>
+
+    <!-- Registro Rápido -->
+    <string name="entry_title_earning">NOVO GANHO</string>
+    <string name="entry_title_expense">NOVO GASTO</string>
+    <string name="entry_step_value">1. Digite o valor</string>
+    <string name="entry_step_platform">2. Escolha a plataforma</string>
+    <string name="entry_step_category">2. Escolha a categoria</string>
+    <string name="entry_step_confirm">3. Confira antes de salvar</string>
+    <string name="entry_next">Avançar</string>
+    <string name="entry_back">Voltar</string>
+    <string name="entry_confirm">Confirmar</string>
+    <string name="entry_cancel">Cancelar</string>
+    <string name="entry_correct">Corrigir</string>
+    <string name="entry_clear">Limpar</string>
+    <string name="entry_cd_backspace">Apagar último dígito</string>
+    <string name="entry_cd_clear">Limpar valor digitado</string>
+    <string name="entry_error_zero">Informe um valor maior que R$ 0,00.</string>
+    <string name="entry_error_max">O valor máximo por lançamento é R$ 9.999,99.</string>
+    <string name="entry_saved_earning_msg">Ganho salvo: %1$s (%2$s)</string>
+    <string name="entry_saved_expense_msg">Gasto salvo: %1$s (%2$s)</string>
+    <string name="entry_undo">Desfazer</string>
+    <string name="entry_undone_msg">Lançamento desfeito.</string>
+
+    <!-- Histórico -->
+    <string name="history_title">HISTÓRICO</string>
+    <string name="history_tab_daily">Hoje</string>
+    <string name="history_tab_weekly">Semana</string>
+    <string name="history_daily_net">Lucro líquido de hoje</string>
+    <string name="history_weekly_net">Lucro líquido da semana</string>
+    <string name="history_sync_pending">Pendente sync</string>
+    <string name="history_synced">Sincronizado</string>
+    <string name="history_empty_daily_title">Nenhum lançamento hoje</string>
+    <string name="history_empty_daily_desc">Toque em + Ganho ou + Gasto para registrar sua primeira movimentação.</string>
+    <string name="history_empty_weekly_title">Sem registros nesta semana</string>
+    <string name="history_empty_weekly_desc">Seus lucros diários de segunda a domingo aparecerão aqui conforme você registrar ganhos e gastos.</string>
+    <string name="history_go_home">Ir para Visão Geral</string>
+
+    <!-- Fórum de Apoio SP -->
+    <string name="forum_title">FÓRUM DE APOIO SP</string>
+    <string name="forum_search_hint">Buscar blitz, via, acidente ou apoio</string>
+    <string name="forum_filter_all">Todos</string>
+    <string name="forum_cat_blitz">Blitz</string>
+    <string name="forum_cat_accident">Acidentes</string>
+    <string name="forum_cat_support">Pontos de Apoio</string>
+    <string name="forum_cat_mechanics">Mecânica</string>
+    <string name="forum_btn_new_post">+ Publicar Aviso</string>
+    <string name="forum_form_title">NOVO AVISO NA REDE</string>
+    <string name="forum_field_title">Título curto (ex.: Blitz na Radial)</string>
+    <string name="forum_field_area">Bairro ou via (ex.: Pinheiros · Faria Lima)</string>
+    <string name="forum_field_desc">Detalhes úteis para os motocas</string>
+    <string name="forum_btn_publish">Publicar Aviso</string>
+    <string name="forum_error_required">Preencha o título e os detalhes do aviso.</string>
+    <string name="forum_btn_support">Apoiar (%1$d)</string>
+    <string name="forum_btn_supported">Apoiado (%1$d)</string>
+    <string name="forum_btn_report">Denunciar</string>
+    <string name="forum_btn_block">Bloquear</string>
+    <string name="forum_report_confirm_title">Denunciar publicação?</string>
+    <string name="forum_report_confirm_desc">Este aviso será ocultado da sua tela imediatamente para revisão.</string>
+    <string name="forum_block_confirm_title">Bloquear %1$s?</string>
+    <string name="forum_block_confirm_desc">Você não verá mais publicações deste usuário.</string>
+    <string name="forum_empty_title">Nenhum aviso encontrado</string>
+    <string name="forum_empty_desc">Tente outro filtro ou publique um alerta útil para os entregadores de São Paulo.</string>
+    <string name="forum_post_created_msg">Aviso publicado no fórum!</string>
+    <string name="forum_post_reported_msg">Publicação denunciada e ocultada.</string>
+    <string name="forum_author_blocked_msg">Usuário bloqueado.</string>
+
+    <!-- Perfil do Motoca & Configurações -->
+    <string name="profile_title">PERFIL DO MOTOCA</string>
+    <string name="profile_section_identity">Seus Dados e Meta</string>
+    <string name="profile_field_name">Apelido no app e fórum</string>
+    <string name="profile_field_bike">Modelo da moto</string>
+    <string name="profile_field_goal">Meta líquida diária (em R$ inteiros)</string>
+    <string name="profile_btn_save">Salvar Perfil</string>
+    <string name="profile_saved_msg">Perfil atualizado com sucesso!</string>
+    <string name="profile_error_goal">Informe uma meta diária entre R$ 10 e R$ 9.999.</string>
+    <string name="profile_section_settings">Configurações</string>
+    <string name="profile_setting_dark_mode">Modo Noturno</string>
+    <string name="profile_setting_dark_mode_desc">Escurece as telas para pilotar à noite</string>
+
+    <!-- Modo HUD (Com Velocímetro GPS + Copiloto TTS) -->
+    <string name="hud_title_readonly">MODO PILOTAGEM (SOMENTE LEITURA)</string>
+    <string name="hud_mode_auto">GPS Automático</string>
+    <string name="hud_mode_manual">Modo Manual</string>
+    <string name="hud_speed_label">Velocidade GPS</string>
+    <string name="hud_speed_value">%1$d km/h</string>
+    <string name="hud_logged_time">Tempo logado</string>
+    <string name="hud_hourly_label">Ganho/hora e Meta</string>
+    <string name="hud_goal_remaining">Faltam %1$s para a meta diária</string>
+    <string name="hud_goal_reached">Meta diária atingida!</string>
+    <string name="hud_weather_label">Clima / Vento SP</string>
+    <string name="hud_weather_sample">24 °C · Vento 18 km/h SE · Pista seca</string>
+    <string name="hud_street_alert_label">Último Alerta das Ruas</string>
+    <string name="hud_street_alert_empty">Sem alertas recentes de blitz ou acidentes.</string>
+    <string name="hud_voice_on">Copiloto Voz: Ligado</string>
+    <string name="hud_voice_off">Copiloto Voz: Mudo</string>
+    <string name="hud_voice_enabled_spoken">Copiloto por voz ativado.</string>
+    <string name="hud_voice_alert_spoken">Atenção na rua. %1$s em %2$s. %3$s</string>
+    <string name="hud_exit_manual">Sair do Modo Pilotagem</string>
+</resources>
